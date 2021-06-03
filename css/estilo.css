@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sizing-image {
+    width: 250px;
+    height: 250px;
+}
+
+.contacto{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 0.8em;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.fa-mobile-alt {
+    margin-right: 12px;
+    padding-left: 3px;
+}
+
+.fa-envelope-open-text{
+    margin-right: 12px;
+}
+
+.fa-map-marker-alt{
+    margin-right: 12px;
+}
+
+.fa-linkedin{
+    margin-right: 12px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: rgb(0, 155, 26);
+}
+
+h3{
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.subtitulo{
+    margin-top: 5px;
+    list-style: none;
+}
+
+hr {
+    color: rgb(255, 0, 0);
+}
+
+.contenedor__section{
+    display: flex;
+}
+
+.contenedor__section > div {
+    width: 50%;
+    padding: 4rem;
+  }
+pre{
+    color: crimson;
+}
+
+.preclass {
+    color: black;
+}
+
+.sitio{
+    text-decoration: none;
+    color: rgb(43, 122, 226);
+}
+.sitio:hover{
+    color: rgb(255, 153, 0);
+}
+
+  @media only screen and (max-width: 1024px) {
+  .contenedor__section{
+    display: block;
+  }
+  
+  .contenedor__section > div {
+    width: 100%;
+    padding: 1rem;
+  }
+  .contenedor__section > div img {
+    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  }
